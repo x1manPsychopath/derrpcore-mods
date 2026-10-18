@@ -1,0 +1,169 @@
+{
+  "server": "DerrpCore",
+  "generated": "2026-10-18",
+  "required": [
+    {
+      "name": "CoreEnhance",
+      "display": "CoreEnhance",
+      "source": "workshop",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3721031561"
+    },
+    {
+      "name": "CoreLib",
+      "display": "CoreLib",
+      "source": "workshop",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3673516180"
+    },
+    {
+      "name": "EternalOreBoulders",
+      "display": "Eternal Ore Boulders",
+      "source": "workshop",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3787232845"
+    },
+    {
+      "name": "EternalUpgrade",
+      "display": "Eternal Upgrade",
+      "source": "workshop",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3787234379"
+    },
+    {
+      "name": "Extra Pouches",
+      "display": "Extra Pouches",
+      "source": "workshop",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3787235906"
+    },
+    {
+      "name": "ExtraSaddles",
+      "display": "Extra Saddles",
+      "source": "workshop",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3807638167"
+    },
+    {
+      "name": "GeneralConfigMenu",
+      "display": "GeneralConfigMenu",
+      "source": "workshop",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3721094795"
+    },
+    {
+      "name": "InstantPortalCharge",
+      "display": "InstantPortalCharge",
+      "source": "workshop",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3805926584"
+    },
+    {
+      "name": "MagicWorkbench",
+      "display": "Magic Workbench",
+      "source": "workshop",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3787248157"
+    },
+    {
+      "name": "MasterCooking",
+      "display": "Master Cooking",
+      "source": "workshop",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3787252362"
+    },
+    {
+      "name": "MasterFishing",
+      "display": "Master Fishing",
+      "source": "workshop",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3787259292"
+    },
+    {
+      "name": "MasterMount",
+      "display": "Master Mount",
+      "source": "workshop",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3813568330"
+    },
+    {
+      "name": "NameChests",
+      "display": "More Labels",
+      "source": "workshop",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3673988006"
+    },
+    {
+      "name": "MountedActions",
+      "display": "Mounted Actions",
+      "source": "workshop",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3812115744"
+    },
+    {
+      "name": "PlacementPlus",
+      "display": "PlacementPlus",
+      "source": "workshop",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3673534326"
+    },
+    {
+      "name": "SidsOverhaul",
+      "display": "Sid's Overhaul",
+      "source": "workshop",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3813043354"
+    },
+    {
+      "name": "SmashOreBoulders",
+      "display": "Smash Ore Boulders",
+      "source": "workshop",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3787275002"
+    },
+    {
+      "name": "ExpandedChestUI",
+      "display": "ExpandedChestUI",
+      "source": "modio",
+      "url": "https://mod.io/g/corekeeper/m/expanded-chest-ui"
+    },
+    {
+      "name": "StoragePlus",
+      "display": "StoragePlus",
+      "source": "modio",
+      "url": "https://mod.io/g/corekeeper/m/storageplus"
+    }
+  ],
+  "keep_off": [
+    {
+      "name": "ModOptions",
+      "display": "Mod Options (standalone)",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3813531202"
+    },
+    {
+      "name": "KeepMinions",
+      "display": "Keep Minions On Teleport (standalone)",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3813043738"
+    }
+  ],
+  "optional": [
+    {
+      "name": "PinnedRecipes",
+      "display": "Pinned Recipes",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3821848958"
+    },
+    {
+      "name": "HealthBars",
+      "display": "Enemy Health Bars",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3673984878"
+    },
+    {
+      "name": "BossHealthBar",
+      "display": "Boss Health Bar",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3787223324"
+    },
+    {
+      "name": "BetterMinimap",
+      "display": "Better Minimap",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3803563471"
+    },
+    {
+      "name": "CookbookDiscovery",
+      "display": "Cooking Plus",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3819993681"
+    },
+    {
+      "name": "AutoReel",
+      "display": "Auto Reel",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806567806"
+    },
+    {
+      "name": "JadeHud",
+      "display": "Jade HUD",
+      "url": "https://mod.io/g/corekeeper/m/jade-hud"
+    }
+  ]
+}
