@@ -68,6 +68,10 @@ a:focus-visible, input:focus-visible, button:focus-visible { outline: 2px solid 
 .stop { border-left: 4px solid var(--stop); background: var(--surface); padding: .8rem 1rem; display: grid; gap: .6rem; }
 .stop li, .extras li { display: grid; gap: .1rem; padding-block: .25rem; }
 .why { color: var(--muted); font-size: .9rem; }
+.fix { border-left: 4px solid var(--copper); }
+.fix .btn { font-size: .85rem; padding: .35rem .8rem; }
+.fixbody { grid-column: 2 / -1; display: grid; gap: .4rem; }
+.fixbody ol { margin: 0; padding-left: 1.2rem; font-size: .92rem; }
 .extras { display: grid; gap: .2rem; }
 .extras a { font-weight: 700; }
 .trouble { display: grid; gap: 1rem; }
@@ -77,60 +81,52 @@ code { font: .82rem var(--mono); background: var(--surface); border: 1px solid v
   overflow-wrap: anywhere; user-select: all; min-width: 0; }
 footer { font: .8rem var(--mono); color: var(--muted); }
 @media (prefers-reduced-motion: reduce) { .bar span { transition: none; } }
-@media (max-width: 30rem) { .mod { grid-template-columns: auto 1fr; } .mod .open { grid-column: 2; justify-self: start; } }
+@media (max-width: 30rem) { .mod { grid-template-columns: auto 1fr; } .mod .open, .mod .btn { grid-column: 2; justify-self: start; } }
 </style>
 
 <main>
   <header>
     <span class="eyebrow">Core Keeper dedicated server</span>
     <h1>DerrpCore mod checklist</h1>
-    <p class="lede">The server runs 19 mods, and your game has to load the same ones or joining fails with
+    <p class="lede">The server runs 3 mods, and your game has to load the same ones or joining fails with
       &ldquo;game version mismatch&rdquo;. Work down this page once and you're set.</p>
     <ol class="steps">
-      <li><span>Subscribe to the 17 Steam Workshop mods.</span></li>
-      <li><span>Start Core Keeper and subscribe to the 2 mod.io mods from the main menu's <b>Mods</b> button.</span></li>
+      <li><span>Subscribe to the 2 Steam Workshop mods.</span></li>
+      <li><span>Start Core Keeper and subscribe to the 1 mod.io mods from the main menu's <b>Mods</b> button.</span></li>
       <li><span>Check that the mods in &ldquo;Keep these off&rdquo; are off, then restart the game.</span></li>
+      <li><span>Install the required fix below (one download), then restart the game.</span></li>
       <li><span>Ask NeoDerrp for the join code and paste all of it into Join Game.</span></li>
     </ol>
   </header>
 
   <div class="progress" id="progress">
-    <div class="label"><span>Required mods ticked</span><span id="count">0 / 19</span></div>
+    <div class="label"><span>Required items ticked</span><span id="count">0 / 4</span></div>
     <div class="bar"><span id="fill"></span></div>
   </div>
 
   <section>
-    <h2>Steam Workshop <span class="count">17 mods</span></h2>
-    
-    <p class="note">Open each page, press <b>Subscribe</b>, then tick it here. Steam downloads them the next time it's running.</p>
+    <h2>Required fix <span class="count">1</span></h2>
     <ul class="mods">
-<li class="mod"><input type="checkbox" id="m-w0" data-key="CoreEnhance"><label for="m-w0"><span class="mname">CoreEnhance</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3721031561" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w1" data-key="CoreLib"><label for="m-w1"><span class="mname">CoreLib</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3673516180" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w2" data-key="EternalOreBoulders"><label for="m-w2"><span class="mname">Eternal Ore Boulders</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3787232845" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w3" data-key="EternalUpgrade"><label for="m-w3"><span class="mname">Eternal Upgrade</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3787234379" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w4" data-key="Extra Pouches"><label for="m-w4"><span class="mname">Extra Pouches</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3787235906" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w5" data-key="ExtraSaddles"><label for="m-w5"><span class="mname">Extra Saddles</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3807638167" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w6" data-key="GeneralConfigMenu"><label for="m-w6"><span class="mname">GeneralConfigMenu</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3721094795" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w7" data-key="InstantPortalCharge"><label for="m-w7"><span class="mname">InstantPortalCharge</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3805926584" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w8" data-key="MagicWorkbench"><label for="m-w8"><span class="mname">Magic Workbench</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3787248157" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w9" data-key="MasterCooking"><label for="m-w9"><span class="mname">Master Cooking</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3787252362" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w10" data-key="MasterFishing"><label for="m-w10"><span class="mname">Master Fishing</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3787259292" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w11" data-key="MasterMount"><label for="m-w11"><span class="mname">Master Mount</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3813568330" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w12" data-key="NameChests"><label for="m-w12"><span class="mname">More Labels</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3673988006" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w13" data-key="MountedActions"><label for="m-w13"><span class="mname">Mounted Actions</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3812115744" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w14" data-key="PlacementPlus"><label for="m-w14"><span class="mname">PlacementPlus</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3673534326" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w15" data-key="SidsOverhaul"><label for="m-w15"><span class="mname">Sid&#x27;s Overhaul</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3813043354" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w16" data-key="SmashOreBoulders"><label for="m-w16"><span class="mname">Smash Ore Boulders</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3787275002" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod fix"><input type="checkbox" id="f-0" data-key="fix-corelib-fix"><label for="f-0"><span class="mname">CoreLib fix (Root Workbench)</span><span class="msrc">Everyone needs this</span></label><a class="btn" href="fixes/DerrpCore-CoreLib-Fix.zip" download>Download</a><div class="fixbody"><p class="why">CoreLib gives the Root Workbench a random ID every launch, so crafting it refunds and a few modded items get mixed up. The fix makes the ID the same for everyone.</p><ol><li>Close Core Keeper.</li><li>Download the zip and unzip it anywhere.</li><li>Double-click Install-CoreLibFix.bat (if Windows warns you: More info, then Run anyway).</li><li>Check it says FIXED or already fixed, then start the game.</li><li>Run it again whenever CoreLib updates on Steam.</li></ol></div></li>
     </ul>
   </section>
 
   <section>
-    <h2>mod.io <span class="count">2 mods</span></h2>
+    <h2>Steam Workshop <span class="count">2 mods</span></h2>
+    
+    <p class="note">Open each page, press <b>Subscribe</b>, then tick it here. Steam downloads them the next time it's running.</p>
+    <ul class="mods">
+<li class="mod"><input type="checkbox" id="m-w0" data-key="Alpha"><label for="m-w0"><span class="mname">Alpha</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=111" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-w1" data-key="Beta"><label for="m-w1"><span class="mname">Beta</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=222" target="_blank" rel="noopener">Open page</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>mod.io <span class="count">1 mods</span></h2>
     <p class="note">These aren't on the Workshop. In Core Keeper: main menu &rarr; <b>Mods</b> &rarr; search the name &rarr; <b>Subscribe</b>.
       CoreLib may get added from mod.io automatically. That's expected and harmless.</p>
     <ul class="mods">
-<li class="mod"><input type="checkbox" id="m-o0" data-key="ExpandedChestUI"><label for="m-o0"><span class="mname">ExpandedChestUI</span><span class="msrc">mod.io: Subscribe in game</span></label><a class="open" href="https://mod.io/g/corekeeper/m/expanded-chest-ui" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-o1" data-key="StoragePlus"><label for="m-o1"><span class="mname">StoragePlus</span><span class="msrc">mod.io: Subscribe in game</span></label><a class="open" href="https://mod.io/g/corekeeper/m/storageplus" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-o0" data-key="StoragePlus"><label for="m-o0"><span class="mname">StoragePlus</span><span class="msrc">mod.io: Subscribe in game</span></label><a class="open" href="https://mod.io/g/corekeeper/m/storageplus" target="_blank" rel="noopener">Open page</a></li>
     </ul>
   </section>
 
