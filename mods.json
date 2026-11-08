@@ -1,7 +1,31 @@
 {
   "server": "DerrpCore",
-  "generated": "2026-10-18",
+  "generated": "2026-11-07",
   "required": [
+    {
+      "name": "AutoReel",
+      "display": "Auto Reel",
+      "source": "workshop",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806567806"
+    },
+    {
+      "name": "BetterMinimap",
+      "display": "Better Minimap",
+      "source": "workshop",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3803563471"
+    },
+    {
+      "name": "BossHealthBar",
+      "display": "Boss Health Bar",
+      "source": "workshop",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3787223324"
+    },
+    {
+      "name": "CookbookDiscovery",
+      "display": "Cooking Plus",
+      "source": "workshop",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3819993681"
+    },
     {
       "name": "CoreEnhance",
       "display": "CoreEnhance",
@@ -13,6 +37,12 @@
       "display": "CoreLib",
       "source": "workshop",
       "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3673516180"
+    },
+    {
+      "name": "HealthBars",
+      "display": "Enemy Health Bars",
+      "source": "workshop",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3673984878"
     },
     {
       "name": "EternalOreBoulders",
@@ -87,6 +117,18 @@
       "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3812115744"
     },
     {
+      "name": "OreRadar",
+      "display": "OreRadar",
+      "source": "workshop",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3821831130"
+    },
+    {
+      "name": "PinnedRecipes",
+      "display": "Pinned Recipes",
+      "source": "workshop",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3821848958"
+    },
+    {
       "name": "PlacementPlus",
       "display": "PlacementPlus",
       "source": "workshop",
@@ -103,6 +145,18 @@
       "display": "Smash Ore Boulders",
       "source": "workshop",
       "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3787275002"
+    },
+    {
+      "name": "UnifiedWarehouseMod",
+      "display": "\u7ba1\u7406\u7ec8\u7aef / Management Terminal",
+      "source": "workshop",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3819067543"
+    },
+    {
+      "name": "JadeHud",
+      "display": "Doole's Jade HUD",
+      "source": "modio",
+      "url": "https://mod.io/g/corekeeper/m/jadehud"
     },
     {
       "name": "ExpandedChestUI",
@@ -129,43 +183,7 @@
       "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3813043738"
     }
   ],
-  "optional": [
-    {
-      "name": "PinnedRecipes",
-      "display": "Pinned Recipes",
-      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3821848958"
-    },
-    {
-      "name": "HealthBars",
-      "display": "Enemy Health Bars",
-      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3673984878"
-    },
-    {
-      "name": "BossHealthBar",
-      "display": "Boss Health Bar",
-      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3787223324"
-    },
-    {
-      "name": "BetterMinimap",
-      "display": "Better Minimap",
-      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3803563471"
-    },
-    {
-      "name": "CookbookDiscovery",
-      "display": "Cooking Plus",
-      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3819993681"
-    },
-    {
-      "name": "AutoReel",
-      "display": "Auto Reel",
-      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3806567806"
-    },
-    {
-      "name": "JadeHud",
-      "display": "Jade HUD",
-      "url": "https://mod.io/g/corekeeper/m/jade-hud"
-    }
-  ],
+  "optional": [],
   "required_fixes": [
     {
       "title": "CoreLib fix (Root Workbench)",

@@ -88,11 +88,11 @@ footer { font: .8rem var(--mono); color: var(--muted); }
   <header>
     <span class="eyebrow">Core Keeper dedicated server</span>
     <h1>DerrpCore mod checklist</h1>
-    <p class="lede">The server runs 19 mods, and your game has to load the same ones or joining fails with
+    <p class="lede">The server runs 28 mods, and your game has to load the same ones or joining fails with
       &ldquo;game version mismatch&rdquo;. Work down this page once and you're set.</p>
     <ol class="steps">
-      <li><span>Subscribe to the 17 Steam Workshop mods.</span></li>
-      <li><span>Start Core Keeper and subscribe to the 2 mod.io mods from the main menu's <b>Mods</b> button.</span></li>
+      <li><span>Subscribe to the 25 Steam Workshop mods.</span></li>
+      <li><span>Start Core Keeper and subscribe to the 3 mod.io mods from the main menu's <b>Mods</b> button.</span></li>
       <li><span>Check that the mods in &ldquo;Keep these off&rdquo; are off, then restart the game.</span></li>
       <li><span>Install the required fix below (one download), then restart the game.</span></li>
       <li><span>Ask NeoDerrp for the join code and paste all of it into Join Game.</span></li>
@@ -100,7 +100,7 @@ footer { font: .8rem var(--mono); color: var(--muted); }
   </header>
 
   <div class="progress" id="progress">
-    <div class="label"><span>Required items ticked</span><span id="count">0 / 20</span></div>
+    <div class="label"><span>Required items ticked</span><span id="count">0 / 29</span></div>
     <div class="bar"><span id="fill"></span></div>
   </div>
 
@@ -112,37 +112,46 @@ footer { font: .8rem var(--mono); color: var(--muted); }
   </section>
 
   <section>
-    <h2>Steam Workshop <span class="count">17 mods</span></h2>
+    <h2>Steam Workshop <span class="count">25 mods</span></h2>
     
     <p class="note">Open each page, press <b>Subscribe</b>, then tick it here. Steam downloads them the next time it's running.</p>
     <ul class="mods">
-<li class="mod"><input type="checkbox" id="m-w0" data-key="CoreEnhance"><label for="m-w0"><span class="mname">CoreEnhance</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3721031561" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w1" data-key="CoreLib"><label for="m-w1"><span class="mname">CoreLib</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3673516180" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w2" data-key="EternalOreBoulders"><label for="m-w2"><span class="mname">Eternal Ore Boulders</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3787232845" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w3" data-key="EternalUpgrade"><label for="m-w3"><span class="mname">Eternal Upgrade</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3787234379" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w4" data-key="Extra Pouches"><label for="m-w4"><span class="mname">Extra Pouches</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3787235906" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w5" data-key="ExtraSaddles"><label for="m-w5"><span class="mname">Extra Saddles</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3807638167" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w6" data-key="GeneralConfigMenu"><label for="m-w6"><span class="mname">GeneralConfigMenu</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3721094795" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w7" data-key="InstantPortalCharge"><label for="m-w7"><span class="mname">InstantPortalCharge</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3805926584" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w8" data-key="MagicWorkbench"><label for="m-w8"><span class="mname">Magic Workbench</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3787248157" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w9" data-key="MasterCooking"><label for="m-w9"><span class="mname">Master Cooking</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3787252362" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w10" data-key="MasterFishing"><label for="m-w10"><span class="mname">Master Fishing</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3787259292" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w11" data-key="MasterMount"><label for="m-w11"><span class="mname">Master Mount</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3813568330" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w12" data-key="NameChests"><label for="m-w12"><span class="mname">More Labels</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3673988006" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w13" data-key="MountedActions"><label for="m-w13"><span class="mname">Mounted Actions</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3812115744" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w14" data-key="PlacementPlus"><label for="m-w14"><span class="mname">PlacementPlus</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3673534326" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w15" data-key="SidsOverhaul"><label for="m-w15"><span class="mname">Sid&#x27;s Overhaul</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3813043354" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-w16" data-key="SmashOreBoulders"><label for="m-w16"><span class="mname">Smash Ore Boulders</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3787275002" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-w0" data-key="AutoReel"><label for="m-w0"><span class="mname">Auto Reel</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3806567806" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-w1" data-key="BetterMinimap"><label for="m-w1"><span class="mname">Better Minimap</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3803563471" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-w2" data-key="BossHealthBar"><label for="m-w2"><span class="mname">Boss Health Bar</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3787223324" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-w3" data-key="CookbookDiscovery"><label for="m-w3"><span class="mname">Cooking Plus</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3819993681" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-w4" data-key="CoreEnhance"><label for="m-w4"><span class="mname">CoreEnhance</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3721031561" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-w5" data-key="CoreLib"><label for="m-w5"><span class="mname">CoreLib</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3673516180" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-w6" data-key="HealthBars"><label for="m-w6"><span class="mname">Enemy Health Bars</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3673984878" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-w7" data-key="EternalOreBoulders"><label for="m-w7"><span class="mname">Eternal Ore Boulders</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3787232845" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-w8" data-key="EternalUpgrade"><label for="m-w8"><span class="mname">Eternal Upgrade</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3787234379" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-w9" data-key="Extra Pouches"><label for="m-w9"><span class="mname">Extra Pouches</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3787235906" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-w10" data-key="ExtraSaddles"><label for="m-w10"><span class="mname">Extra Saddles</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3807638167" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-w11" data-key="GeneralConfigMenu"><label for="m-w11"><span class="mname">GeneralConfigMenu</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3721094795" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-w12" data-key="InstantPortalCharge"><label for="m-w12"><span class="mname">InstantPortalCharge</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3805926584" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-w13" data-key="MagicWorkbench"><label for="m-w13"><span class="mname">Magic Workbench</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3787248157" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-w14" data-key="MasterCooking"><label for="m-w14"><span class="mname">Master Cooking</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3787252362" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-w15" data-key="MasterFishing"><label for="m-w15"><span class="mname">Master Fishing</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3787259292" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-w16" data-key="MasterMount"><label for="m-w16"><span class="mname">Master Mount</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3813568330" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-w17" data-key="NameChests"><label for="m-w17"><span class="mname">More Labels</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3673988006" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-w18" data-key="MountedActions"><label for="m-w18"><span class="mname">Mounted Actions</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3812115744" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-w19" data-key="OreRadar"><label for="m-w19"><span class="mname">OreRadar</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3821831130" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-w20" data-key="PinnedRecipes"><label for="m-w20"><span class="mname">Pinned Recipes</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3821848958" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-w21" data-key="PlacementPlus"><label for="m-w21"><span class="mname">PlacementPlus</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3673534326" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-w22" data-key="SidsOverhaul"><label for="m-w22"><span class="mname">Sid&#x27;s Overhaul</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3813043354" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-w23" data-key="SmashOreBoulders"><label for="m-w23"><span class="mname">Smash Ore Boulders</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3787275002" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-w24" data-key="UnifiedWarehouseMod"><label for="m-w24"><span class="mname">管理终端 / Management Terminal</span><span class="msrc">Steam Workshop: Subscribe</span></label><a class="open" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3819067543" target="_blank" rel="noopener">Open page</a></li>
     </ul>
   </section>
 
   <section>
-    <h2>mod.io <span class="count">2 mods</span></h2>
+    <h2>mod.io <span class="count">3 mods</span></h2>
     <p class="note">These aren't on the Workshop. In Core Keeper: main menu &rarr; <b>Mods</b> &rarr; search the name &rarr; <b>Subscribe</b>.
       CoreLib may get added from mod.io automatically. That's expected and harmless.</p>
     <ul class="mods">
-<li class="mod"><input type="checkbox" id="m-o0" data-key="ExpandedChestUI"><label for="m-o0"><span class="mname">ExpandedChestUI</span><span class="msrc">mod.io: Subscribe in game</span></label><a class="open" href="https://mod.io/g/corekeeper/m/expanded-chest-ui" target="_blank" rel="noopener">Open page</a></li>
-<li class="mod"><input type="checkbox" id="m-o1" data-key="StoragePlus"><label for="m-o1"><span class="mname">StoragePlus</span><span class="msrc">mod.io: Subscribe in game</span></label><a class="open" href="https://mod.io/g/corekeeper/m/storageplus" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-o0" data-key="JadeHud"><label for="m-o0"><span class="mname">Doole&#x27;s Jade HUD</span><span class="msrc">mod.io: Subscribe in game</span></label><a class="open" href="https://mod.io/g/corekeeper/m/jadehud" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-o1" data-key="ExpandedChestUI"><label for="m-o1"><span class="mname">ExpandedChestUI</span><span class="msrc">mod.io: Subscribe in game</span></label><a class="open" href="https://mod.io/g/corekeeper/m/expanded-chest-ui" target="_blank" rel="noopener">Open page</a></li>
+<li class="mod"><input type="checkbox" id="m-o2" data-key="StoragePlus"><label for="m-o2"><span class="mname">StoragePlus</span><span class="msrc">mod.io: Subscribe in game</span></label><a class="open" href="https://mod.io/g/corekeeper/m/storageplus" target="_blank" rel="noopener">Open page</a></li>
     </ul>
   </section>
 
@@ -158,13 +167,7 @@ footer { font: .8rem var(--mono); color: var(--muted); }
     <h2>Optional extras</h2>
     <p class="note">These only change your own screen, so the server doesn't care whether you have them.</p>
     <ul class="extras">
-<li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3821848958" target="_blank" rel="noopener">Pinned Recipes</a><span class="why">Pin a recipe and see what materials you still need.</span></li>
-<li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3673984878" target="_blank" rel="noopener">Enemy Health Bars</a><span class="why">Health bars over enemies.</span></li>
-<li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3787223324" target="_blank" rel="noopener">Boss Health Bar</a><span class="why">Bigger boss health bar.</span></li>
-<li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3803563471" target="_blank" rel="noopener">Better Minimap</a><span class="why">Minimap improvements.</span></li>
-<li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3819993681" target="_blank" rel="noopener">Cooking Plus</a><span class="why">Cookbook helpers.</span></li>
-<li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3806567806" target="_blank" rel="noopener">Auto Reel</a><span class="why">Reels fish in for you.</span></li>
-<li><a href="https://mod.io/g/corekeeper/m/jade-hud" target="_blank" rel="noopener">Jade HUD</a><span class="why">Hold ALT to see what&#x27;s under your cursor.</span></li>
+
     </ul>
   </section>
 
@@ -182,12 +185,12 @@ footer { font: .8rem var(--mono); color: var(--muted); }
     </div>
   </section>
 
-  <footer>Mod list as of October 18, 2026. If NeoDerrp adds or updates mods, you'll get a new link.</footer>
+  <footer>Mod list as of November 7, 2026. If NeoDerrp adds or updates mods, you'll get a new link.</footer>
 </main>
 
 <script>
 (function () {
-  var KEY = "derrpcore-mods-2026-10-18";
+  var KEY = "derrpcore-mods-2026-11-07";
   var boxes = Array.prototype.slice.call(document.querySelectorAll('.mods input[type="checkbox"]'));
   var saved = {};
   try { saved = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (e) { saved = {}; }
