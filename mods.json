@@ -1,6 +1,6 @@
 {
   "server": "DerrpCore",
-  "generated": "2026-11-07",
+  "generated": "2026-11-08",
   "required": [
     {
       "name": "AutoReel",
@@ -117,12 +117,6 @@
       "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3812115744"
     },
     {
-      "name": "OreRadar",
-      "display": "OreRadar",
-      "source": "workshop",
-      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3821831130"
-    },
-    {
       "name": "PinnedRecipes",
       "display": "Pinned Recipes",
       "source": "workshop",
@@ -165,6 +159,12 @@
       "url": "https://mod.io/g/corekeeper/m/expanded-chest-ui"
     },
     {
+      "name": "ProtoDiag",
+      "display": "ProtoDiag (DerrpCore diagnostic)",
+      "source": "modio",
+      "url": "https://mod.io/g/corekeeper/m/protodiag"
+    },
+    {
       "name": "StoragePlus",
       "display": "StoragePlus",
       "source": "modio",
@@ -183,7 +183,13 @@
       "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3813043738"
     }
   ],
-  "optional": [],
+  "optional": [
+    {
+      "name": "OreRadar",
+      "display": "Ore Radar",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3821831130"
+    }
+  ],
   "required_fixes": [
     {
       "title": "CoreLib fix (Root Workbench)",
